@@ -11,7 +11,7 @@ var car4
 var car4image
 var cars
 var trackimage
-var Demo 
+ 
 
 function preload(){
 car1image=loadImage("images/car1.png")
@@ -28,11 +28,7 @@ game=new Game()
 game.getState()
 game.start()
 
-for(var i=1;i>0;i++){
-Demo=i+1
 
-}
-console.log(Demo)
 }
 function draw (){
 if(playerCount===4){
